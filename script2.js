@@ -16,16 +16,14 @@ function check(a,b,callback){
 function next(c){
     if(c==1){
         
-        alert("successfully login");
+       
         window.open("./home.html");
    
     }
     else{
         
-        document.getElementById("error").innerHTML ="invalid password or user id";
-        location.reload(disable);
-        window.stop();
-        
+        document.getElementById("error").innerHTML ="Invalid user id or password";
+        event.preventDefault();
     }
 }
 
