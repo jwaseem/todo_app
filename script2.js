@@ -21,10 +21,10 @@ function next(c){
    
     }
     else{
-        
+        window.stop();
         document.getElementById("error").innerHTML ="invalid password or user id";
         // location.reload(disable);
-        window.stop(); 
+        
     }
 }
 
